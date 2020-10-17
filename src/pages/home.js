@@ -12,7 +12,7 @@ class Home extends Component {
                     className="avatar-img"
                 />
                 <h1>Andina Salamah</h1>
-          <p>ERP | HTML/CSS | Java | Python | C# | HTML/CSS</p>
+          <p>ERP | HTML/CSS | Java | Python | C# </p>
 
         <div className="social-links">
           {/* LinkedIn */}
