@@ -1,9 +1,9 @@
-import { Certification, Home, Profile } from '../pages';
+import { Certifications, Home, Profile } from '../pages';
 
 const routes = [
     {
-    path: '/certification',
-    component: Certification,
+    path: '/certifications',
+    component: Certifications,
     },
     {
     path: '/profile',
