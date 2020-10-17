@@ -1,4 +1,4 @@
 export { default as Home } from './home';
 export { default as Profile } from './profile';
-export { default as Certification } from './certification';
+export { default as Certifications } from './certifications';
 
