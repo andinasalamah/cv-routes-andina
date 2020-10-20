@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Profile extends Component {
-    render() {
+    const Profile = () => {
       return (
         <div className="profile-page">
                 <div className="page-1">
@@ -53,6 +52,5 @@ class Profile extends Component {
             </div>
         )
     }
-}
 
 export default Profile;
