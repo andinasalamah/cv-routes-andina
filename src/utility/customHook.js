@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 
+//belum ada useContext di profil
+
 const useTitle = () => {
     const [count, setCount] = useState(0);
 
