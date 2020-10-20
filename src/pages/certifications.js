@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
-class Certifications extends Component {
-    render() {
-      return (
+const Certifications = () => {
+    return (
         <div className="page-5">
             <h1>Certifications:</h1>
 
@@ -34,6 +33,5 @@ class Certifications extends Component {
             </div>
         )
     }
-}
 
 export default Certifications;
