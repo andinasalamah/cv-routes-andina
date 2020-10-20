@@ -3,19 +3,18 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
 const listName = ['Home', 'Profile', 'Certifications'];
-const [isActive, setIsActive] = useState('home');
+// const [isActive, setIsActive] = useState('home');
 
     return (
     <div className="header">
         {listName.map((name) => {
             return (
                 <Link to={`/${name}`} key={name}>
-                <div className="menu">{name}</div>
+                <div className="menu">{name}
+                </div>
             </Link>
         );
-    })}
-    </div>
-    );
+    })}</div>);
 };
 
 export default Header;

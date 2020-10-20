@@ -4,7 +4,6 @@ import {Route, Switch, BrowserRouter} from 'react-router-dom';
 import Header from './header';
 import routes from './config/routes';
 
-
 const App = () => {
   return (
     <BrowserRouter>
@@ -21,7 +20,7 @@ const App = () => {
       })}
     </Switch>
     </BrowserRouter>
-  );  
+  );
 };
 
 export default App;
