@@ -1,8 +1,9 @@
-import React from 'react';
+import React from 'react';;
 
     const Profile = () => {
+
       return (
-        <div className="profile-page">
+        <div className="profile-page">  
                 <div className="page-1">
                 <img
                     src="https://media-exp1.licdn.com/dms/image/C5603AQGQprc1zIDwcA/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=mr57ZdU2zLSZT5jU759s95WPCGJKQP5VTdAih80rqiI"

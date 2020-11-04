@@ -64,7 +64,6 @@
   padding-left: 200px;
   font-size: 20px;
   font-weight: bold;
-  text-align: center;
 }
 
 .banner-text img {
@@ -142,7 +141,7 @@
 }
 
 /* ------------------------------------------------------------------ */
-/* Certication Section 
+/* Certications Section 
 /* ------------------------------------------------------------------ */
 
 .page-5 {
@@ -202,4 +201,36 @@
   padding: 20px 208px;
   margin: 8px 8px;
   cursor: pointer;
+}
+
+/* ------------------------------------------------------------------ */
+/* Info Contact Section 
+/* ------------------------------------------------------------------ */
+
+.boxWhite {
+  text-align: center;
+}
+
+.bgCircle {
+  background: linear-gradient(to bottom, #19547b, #ffd89b);
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  background-color: #24ced0;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 40px;
+  float: left;
+  font-size: 13px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.ctr {
+  text-align: center;
 }

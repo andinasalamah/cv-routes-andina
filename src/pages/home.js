@@ -1,12 +1,12 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 
 const Home = () => {
 const [myNumber, setMyNumber] = useState(1);
 
   return(
-        <div className="button">
-          <button onClick={() => {setMyNumber(myNumber + 1);}}>Click here to count the visited</button>
-          <p>{myNumber}</p>
+    <div className="button">
+      <button onClick={() => {setMyNumber(myNumber + 1);}}>Click here to count the visited</button>
+        <p>{myNumber}</p>
 
        <div className="banner-text">
               <img
@@ -40,7 +40,7 @@ const [myNumber, setMyNumber] = useState(1);
             </div>
           </div>
         </div>
-      )
-    }
+    )   
+  }
 
 export default Home;

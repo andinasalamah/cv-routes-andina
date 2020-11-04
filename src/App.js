@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import {Route, Switch, BrowserRouter} from 'react-router-dom';
-import Header from './header';
+import { HeaderPage } from './components';
 import routes from './config/routes';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Header/>
+      <HeaderPage/>
       <Switch>
         {routes.map((route) => {
           return (
@@ -21,6 +21,6 @@ const App = () => {
     </Switch>
     </BrowserRouter>
   );
-};
+}
 
 export default App;

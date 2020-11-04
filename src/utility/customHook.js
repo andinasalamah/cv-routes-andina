@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 
-//belum ada useContext di profil
-
-const useTitle = () => {
+const useCount = () => {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
@@ -12,4 +10,4 @@ const useTitle = () => {
     return [count, setCount];
 };
 
-export default useTitle;
+export default useCount;

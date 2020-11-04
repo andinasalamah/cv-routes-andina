@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-const listName = ['Home', 'Profile', 'Certifications'];
-// const [isActive, setIsActive] = useState('home');
+const listName = ['Home', 'Profile', 'Certifications', 'InfoContact'];
+
 
     return (
     <div className="header">
